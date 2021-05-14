@@ -12,6 +12,11 @@ To be able to use the script, you will need:
     <li>An API key from your Hubspot account. Follow <a href="https://knowledge.hubspot.com/integrations/how-do-i-get-my-hubspot-api-key" target="_blank">this link</a> for more information.</li>
 </ul>
 
+<h2>How to run a script</h2>
+
+In order to run a script, access to your terminal and run ``` node script-name.js ```.
+Please note that the script might take some time to run, depending on the number of calls and data required.
+
 
 <h2>Scripts</h2>
 
