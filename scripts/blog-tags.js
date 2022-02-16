@@ -11,7 +11,7 @@
 **/
 
 const apiKey = 'your-api-key'
-const limit = 300 // Hubspot limit per request is set to 300
+const limit = 300 
 var offset = 0;
 const domainURL = 'your-domain.com' 
 var isEnd = false

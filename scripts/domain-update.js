@@ -1,23 +1,23 @@
 /** 
 * @author: Albert Soriano
 * This script updates the domain of different pages in Hubspot. This is very useful for content migration.
-* @param {string} accountKey API key for your account.
+* @param {string} apiKey API key for your account.
 * @param {int} limit Limit of elements in the response (default 20, maximum 300).
 * @param {int} offset Since a call to Hubspot's API can only retrieve 300 articles, we will increase the offset to make sure we get different blogs in the next call
 * @param {string} current_domain Current domain of the pages we want to update
 * @param {string} new_domain New domain for the pages we want to update
 * @param {boolean} isEnd To indicate if all blog posts have been retrieved or not
 * @param {array} pages Array that includes all the pages (objects) 
-* @param {string} page_id ID of the page to update
+* @param {string} page_id ID of the page to update (if only one page is needed to be updated)
 **/
 const apiKey = 'your-key-here'
-const limit = 300 // Hubspot limit per request is set to 300
+const limit = 300 
 var offset = 0;
-const current_domain = 'olddomain.com' // Current domain used in pages
-const new_domain = 'newdomain.com' //New domain for pages
+const current_domain = 'olddomain.com' 
+const new_domain = 'newdomain.com' 
 var isEnd = false
 let pages = []
-let page_id = '0' //Page ID of the page to be updated
+let page_id = '0' 
 
 var request = require("request");
 

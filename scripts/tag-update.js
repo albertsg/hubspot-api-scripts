@@ -11,9 +11,9 @@
 */
 
 const accountKey = 'your-account-key'
-const limit = 300 // Hubspot limit per request is set to 300
+const limit = 300 
 var offset = 0;
-const domainURL = 'yourwebsite.com' // '/something/', 'yourwebsite.com/blog/', '/blog.yourwebsite.com/', etc.
+const domainURL = 'yourwebsite.com' 
 var isEnd = false
 let blogs = []
 const newTagId = 0
