@@ -7,7 +7,7 @@ The scripts contained in the <i>scripts</i> folder will help you doing different
 To be able to use the script, you will need:
 
 <ul>
-    <li>NodeJS installed. You can install it from <this href="https://nodejs.org/es/" target="_blank">this link</a>.</li>
+    <li>NodeJS installed. You can install it from <a href="https://nodejs.org/es/" target="_blank">this link</a>.</li>
     <li>A <a href="https://www.hubspot.com/" target="_blank">Hubspot</a> account.</li>
     <li>An API key from your Hubspot account. Follow <a href="https://knowledge.hubspot.com/integrations/how-do-i-get-my-hubspot-api-key" target="_blank">this link</a> for more information.</li>
 </ul>
@@ -29,7 +29,6 @@ The script controls if the blog already has the tag, to avoid unnecesary calls.
 
 Make sure you update the constant <b>accountKey</b> with your API key.
 The constant <b>domainURL</b> is optional and only required if you have more than one domain/locale in your account. 
-
 
 <b> Please consider giving a :star: to this repository if it helped you. </b>
 
